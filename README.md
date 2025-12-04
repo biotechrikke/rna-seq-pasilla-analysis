@@ -68,7 +68,7 @@ mammalian NOVA proteins.
 
 ### Expression Heatmap
 ![Heatmap](results/visualizations/heatmap1-1.png)
-![Heatmap](results/visualizations/heatmap1-2.png)
+![Heatmap](results/visualizations/heatmap2-1.png)
 *Clear clustering of treated vs untreated samples based on expression of top DE genes, also highlithing Z-score differences*
 
 ## Data Sources
