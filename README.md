@@ -52,3 +52,50 @@ mammalian NOVA proteins.
 
 ---
 
+## Visualizations
+
+### Principal Component Analysis
+![PCA Plot](results/visualizations/pca1-1.png)
+![PCA Plot](results/visualizations/pca1-2.png)
+![PCA Plot](results/visualizations/pca1-3.png)
+![PCA Plot](results/visualizations/pca1-4.png)
+![PCA Plot](results/visualizations/pca1-5.png)
+*Samples cluster by treatment (PC1) and sequencing type (PC2), confirming experimental design*
+
+### Volcano Plot
+![Volcano Plot](results/visualizations/volcanoplot1-1.png)
+*113 genes show significant differential expression with biological relevance (red/blue points)*
+
+### Expression Heatmap
+![Heatmap](results/visualizations/heatmap1-1.png)
+![Heatmap](results/visualizations/heatmap1-2.png)
+*Clear clustering of treated vs untreated samples based on expression of top DE genes, also highlithing Z-score differences*
+
+## Data Sources
+
+- **Original Study:** Brooks et al. (2011) - Conservation of splicing regulation
+- **Data Repository:** NCBI GEO accession [GSE18508](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18508)
+- **Reference Genome:** Ensembl dm6
+- **Tutorial Source:** [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html)
+
+### Galaxy Workflow
+The complete analysis workflow is available as a `.ga` file and can be imported into any Galaxy 
+instance:
+- [Download workflow](workflows/Galaxy-Workflow-Workflow_constructed_from_history__Pasilla_RNA-seq_DE_)
+- [Download workflow](workflows/Galaxy-Workflow-Workflow_constructed_from_history__Pasilla_RNA-seq_DE2_)
+
+- ### Software Versions
+- STAR: 2.7.11a
+- DESeq2: 2.11.40.8
+- featureCounts: 2.0.3
+
+- ## References
+
+1. Brooks AN, et al. (2011). Conservation of an RNA regulatory map between Drosophila and mammals. 
+   *Genome Research*, 21(2), 193-202.
+2. Love MI, et al. (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. 
+   *Genome Biology*, 15(12), 550.
+3. Dobin A, et al. (2013). STAR: ultrafast universal RNA-seq aligner. 
+   *Bioinformatics*, 29(1), 15-21.
+
+
