@@ -1,0 +1,842 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "comments": [],
+    "format-version": "0.1",
+    "name": "Workflow constructed from history 'Pasilla RNA-seq DE2'",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "New GSM461176_untreat_single_featureCounts.counts"
+                }
+            ],
+            "label": "New GSM461176_untreat_single_featureCounts.counts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 10
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "0a3ea195-89ca-4413-8755-0f3a4e12058c",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "1": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 1,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GSM461177_untreat_paired_featureCounts.counts"
+                }
+            ],
+            "label": "GSM461177_untreat_paired_featureCounts.counts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 130
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "3a7b8aa6-bd21-45b7-a9d4-842db688c9b0",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "2": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 2,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GSM461178_untreat_paired_featureCounts.counts"
+                }
+            ],
+            "label": "GSM461178_untreat_paired_featureCounts.counts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 250
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9400d73b-6aff-48c8-892d-9d046ee48b97",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "3": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 3,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GSM461179_treat_single_featureCounts.counts"
+                }
+            ],
+            "label": "GSM461179_treat_single_featureCounts.counts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 370
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "fa639e6b-1d08-4d14-a0fe-bebffda37329",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "4": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 4,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GSM461180_treat_paired_featureCounts.counts"
+                }
+            ],
+            "label": "GSM461180_treat_paired_featureCounts.counts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 490
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "2d523511-dd53-4ccd-a23b-2fc22f97b473",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "5": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 5,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GSM461181_treat_paired_featureCounts.counts"
+                }
+            ],
+            "label": "GSM461181_treat_paired_featureCounts.counts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 610
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "0a4c570a-c799-48c0-b50c-ae3d66b7a01c",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "6": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 6,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GSM461182_untreat_single_featureCounts.counts"
+                }
+            ],
+            "label": "GSM461182_untreat_single_featureCounts.counts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 730
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "e4d893a9-e2b8-4f94-8161-601c4cbdce32",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "7": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 7,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GSM461176_untreat_single_featureCounts.counts"
+                }
+            ],
+            "label": "GSM461176_untreat_single_featureCounts.counts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 850
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9e36ffac-6473-4a4c-a233-28b0587760cd",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "8": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 8,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GSM461180_treat_paired_featureCounts.counts"
+                }
+            ],
+            "label": null,
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 970
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "a6bf137c-19aa-4be9-a082-c4462c5b7576",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "9": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 9,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "New FileGSM461180_treat_paired_featureCounts"
+                }
+            ],
+            "label": "New FileGSM461180_treat_paired_featureCounts",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1090
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "b0df17aa-9926-4ee7-a76c-ed9651bc6736",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "10": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 10,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf.gz"
+                }
+            ],
+            "label": "Drosophila_melanogaster.BDGP6.32.109_UCSC.gtf.gz",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1210
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "4150f901-cc4f-4b4d-842e-d9b57c3d2df9",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "11": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 11,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Header"
+                }
+            ],
+            "label": "Header",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 10,
+                "top": 1330
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "b2316b20-b9ff-45c6-b59c-e4f95b6cffdd",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "12": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy0",
+            "errors": null,
+            "id": 12,
+            "input_connections": {
+                "select_data|rep_factorName_0|rep_factorLevel_0|countsFile": [
+                    {
+                        "id": 3,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 9,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 5,
+                        "output_name": "output"
+                    }
+                ],
+                "select_data|rep_factorName_0|rep_factorLevel_1|countsFile": [
+                    {
+                        "id": 1,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 2,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 6,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 7,
+                        "output_name": "output"
+                    }
+                ],
+                "select_data|rep_factorName_1|rep_factorLevel_0|countsFile": [
+                    {
+                        "id": 1,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 9,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 5,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 2,
+                        "output_name": "output"
+                    }
+                ],
+                "select_data|rep_factorName_1|rep_factorLevel_1|countsFile": [
+                    {
+                        "id": 3,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 7,
+                        "output_name": "output"
+                    },
+                    {
+                        "id": 6,
+                        "output_name": "output"
+                    }
+                ]
+            },
+            "inputs": [],
+            "label": null,
+            "name": "DESeq2",
+            "outputs": [
+                {
+                    "name": "deseq_out",
+                    "type": "tabular"
+                },
+                {
+                    "name": "plots",
+                    "type": "pdf"
+                },
+                {
+                    "name": "counts_out",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 230,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/deseq2/deseq2/2.11.40.8+galaxy0",
+            "tool_shed_repository": {
+                "changeset_revision": "9a882d108833",
+                "name": "deseq2",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"advanced_options\": {\"esf_cond\": {\"esf\": \"\", \"__current_case__\": 0}, \"fit_type\": \"1\", \"outlier_replace_off\": false, \"outlier_filter_off\": false, \"auto_mean_filter_off\": false, \"prefilter_conditional\": {\"prefilter\": \"\", \"__current_case__\": 1}, \"use_beta_priors\": true}, \"batch_factors\": null, \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"header\": true, \"output_options\": {\"output_selector\": [\"pdf\", \"normCounts\"], \"alpha_ma\": \"0.1\"}, \"select_data\": {\"how\": \"datasets_per_level\", \"__current_case__\": 1, \"rep_factorName\": [{\"__index__\": 0, \"factorName\": \"Treatment\", \"rep_factorLevel\": [{\"__index__\": 0, \"factorLevel\": \"Treated\", \"countsFile\": null}, {\"__index__\": 1, \"factorLevel\": \"Untreated\", \"countsFile\": null}]}, {\"__index__\": 1, \"factorName\": \"Sequencing\", \"rep_factorLevel\": [{\"__index__\": 0, \"factorLevel\": \"PE\", \"countsFile\": null}, {\"__index__\": 1, \"factorLevel\": \"SE\", \"countsFile\": null}]}]}, \"tximport\": {\"tximport_selector\": \"count\", \"__current_case__\": 1}, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "2.11.40.8+galaxy0",
+            "type": "tool",
+            "uuid": "36c2d126-f6ca-455d-a041-79e39f1006cd",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "13": {
+            "annotation": "",
+            "content_id": "Filter1",
+            "errors": null,
+            "id": 13,
+            "input_connections": {
+                "input": {
+                    "id": 12,
+                    "output_name": "deseq_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Filter",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 450,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "Filter1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"cond\": \"c1 == \\\"FBgn0261552\\\"\", \"header_lines\": \"0\", \"input\": null, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "d8f819c8-1b40-4da0-9a51-173f40a617f5",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "14": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0+galaxy1",
+            "errors": null,
+            "id": 14,
+            "input_connections": {
+                "annotation": {
+                    "id": 10,
+                    "output_name": "output"
+                },
+                "input_table": {
+                    "id": 12,
+                    "output_name": "deseq_out"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Annotate DESeq2/DEXSeq output tables",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 450,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/deg_annotate/deg_annotate/1.1.0+galaxy1",
+            "tool_shed_repository": {
+                "changeset_revision": "e81fbbea6e8f",
+                "name": "deg_annotate",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"advanced_parameters\": {\"gff_feature_type\": \"exon\", \"gff_feature_attribute\": \"gene_id\", \"gff_transcript_attribute\": \"transcript_id\", \"gff_attributes\": \"gene_biotype, gene_name\"}, \"annotation\": null, \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"input_table\": null, \"mode\": \"degseq\", \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.0+galaxy1",
+            "type": "tool",
+            "uuid": "1e6c92ad-518b-4d8a-bb66-0d68967e75d9",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "15": {
+            "annotation": "",
+            "content_id": "cat1",
+            "errors": null,
+            "id": 15,
+            "input_connections": {
+                "input1": {
+                    "id": 11,
+                    "output_name": "output"
+                },
+                "queries_0|input2": {
+                    "id": 14,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Concatenate datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 670,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "cat1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"input1\": null, \"queries\": [{\"__index__\": 0, \"input2\": null}], \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.0",
+            "type": "tool",
+            "uuid": "6e1519da-3247-4a3e-b5d6-e9ee9e197060",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "16": {
+            "annotation": "",
+            "content_id": "Filter1",
+            "errors": null,
+            "id": 16,
+            "input_connections": {
+                "input": {
+                    "id": 15,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Filter",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 890,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "Filter1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"cond\": \"c7<0.05\", \"header_lines\": \"0\", \"input\": null, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "fe2271e2-c6ea-42c9-bd06-25c1c091339e",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "17": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0",
+            "errors": null,
+            "id": 17,
+            "input_connections": {
+                "input": {
+                    "id": 15,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Volcano Plot",
+            "outputs": [
+                {
+                    "name": "plot",
+                    "type": "pdf"
+                }
+            ],
+            "position": {
+                "left": 890,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/volcanoplot/volcanoplot/4.0.1+galaxy0",
+            "tool_shed_repository": {
+                "changeset_revision": "e4790edb4299",
+                "name": "volcanoplot",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"input\": null, \"labels\": {\"label_select\": \"none\", \"__current_case__\": 2}, \"lfc_thresh\": \"0.58\", \"out_options\": {\"rscript_out\": false}, \"plot_options\": {\"boxes\": false, \"title\": null, \"xlab\": null, \"ylab\": null, \"xmin\": null, \"xmax\": null, \"ymax\": null, \"legend\": null, \"legend_labs\": \"Down,Not Sig,Up\"}, \"shape_or_facet\": null, \"signif_thresh\": \"0.05\", \"with_header\": {\"header\": \"yes\", \"__current_case__\": 1, \"fdr_col\": \"7\", \"pval_col\": \"6\", \"lfc_col\": \"3\", \"label_col\": \"1\", \"shape_col\": null}, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "4.0.1+galaxy0",
+            "type": "tool",
+            "uuid": "1015a5ea-1297-4421-ba72-cb86bc89cd3b",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "18": {
+            "annotation": "",
+            "content_id": "Filter1",
+            "errors": null,
+            "id": 18,
+            "input_connections": {
+                "input": {
+                    "id": 16,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Filter",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 1110,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "Filter1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"cond\": \"abs(c3)>1\", \"header_lines\": \"0\", \"input\": null, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "edfef468-bea4-422e-8d94-31a5cc69aee7",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "19": {
+            "annotation": "",
+            "content_id": "join1",
+            "errors": null,
+            "id": 19,
+            "input_connections": {
+                "input1": {
+                    "id": 12,
+                    "output_name": "counts_out"
+                },
+                "input2": {
+                    "id": 18,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Join two Datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 1330,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "join1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"field1\": \"1\", \"field2\": \"1\", \"fill_empty_columns\": {\"fill_empty_columns_switch\": \"no_fill\", \"__current_case__\": 0}, \"header\": \"-H\", \"input1\": null, \"input2\": null, \"partial\": \"\", \"unmatched\": \"\", \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "2.1.3",
+            "type": "tool",
+            "uuid": "fee27de8-f8e3-461e-8629-ff94fd2dcf26",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "20": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 20,
+            "input_connections": {
+                "input": {
+                    "id": 19,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 1550,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c1,c8\", \"delimiter\": \"T\", \"input\": null, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.2",
+            "type": "tool",
+            "uuid": "fcb0af06-f218-457f-a906-ea7b6797c8f1",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "21": {
+            "annotation": "",
+            "content_id": "Cut1",
+            "errors": null,
+            "id": 21,
+            "input_connections": {
+                "input": {
+                    "id": 19,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Cut",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 1550,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "Cut1",
+            "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"columnList\": \"c1,c2,c3,c4,5,c6,c7,c8\", \"delimiter\": \"T\", \"input\": null, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.0.2",
+            "type": "tool",
+            "uuid": "1feafbbc-900e-4e25-bcd0-4a507b189203",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "22": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.2.0+galaxy1",
+            "errors": null,
+            "id": 22,
+            "input_connections": {
+                "input1": {
+                    "id": 21,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "heatmap2",
+            "outputs": [
+                {
+                    "name": "output1",
+                    "type": "pdf"
+                }
+            ],
+            "position": {
+                "left": 1770,
+                "top": 10
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.2.0+galaxy1",
+            "tool_shed_repository": {
+                "changeset_revision": "48b42ee61bc5",
+                "name": "ggplot2_heatmap2",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"cluster_cond\": {\"cluster\": \"yes\", \"__current_case__\": 0, \"cluster_cols_rows\": \"both\", \"distance\": \"euclidean\", \"clustering\": \"complete\"}, \"colorchoice\": {\"type\": \"two\", \"__current_case__\": 1, \"color1\": \"#ffffff\", \"color2\": \"#ff0000\"}, \"image_file_format\": \"pdf\", \"input1\": null, \"key\": null, \"labels\": \"columns\", \"title\": null, \"transform\": \"log2plus1\", \"zscore_cond\": {\"zscore\": \"none\", \"__current_case__\": 0, \"scale\": \"none\"}, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "3.2.0+galaxy1",
+            "type": "tool",
+            "uuid": "5d2aca86-c9c5-4bd8-9c12-b7f6a0c971fc",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "23": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.2.0+galaxy1",
+            "errors": null,
+            "id": 23,
+            "input_connections": {
+                "input1": {
+                    "id": 21,
+                    "output_name": "out_file1"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "heatmap2",
+            "outputs": [
+                {
+                    "name": "output1",
+                    "type": "pdf"
+                }
+            ],
+            "position": {
+                "left": 1770,
+                "top": 130
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_heatmap2/ggplot2_heatmap2/3.2.0+galaxy1",
+            "tool_shed_repository": {
+                "changeset_revision": "48b42ee61bc5",
+                "name": "ggplot2_heatmap2",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"cluster_cond\": {\"cluster\": \"yes\", \"__current_case__\": 0, \"cluster_cols_rows\": \"both\", \"distance\": \"euclidean\", \"clustering\": \"complete\"}, \"colorchoice\": {\"type\": \"three\", \"__current_case__\": 2, \"color1\": \"#0000ff\", \"color2\": \"#ffffff\", \"color3\": \"#ff0000\"}, \"image_file_format\": \"pdf\", \"input1\": null, \"key\": null, \"labels\": \"columns\", \"title\": null, \"transform\": \"none\", \"zscore_cond\": {\"zscore\": \"rows\", \"__current_case__\": 1}, \"__page__\": 0, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "3.2.0+galaxy1",
+            "type": "tool",
+            "uuid": "b4959bc8-4db9-4bf4-a42e-29d93cd02f69",
+            "when": null,
+            "workflow_outputs": []
+        }
+    },
+    "tags": [],
+    "uuid": "ac6166bd-2802-461a-a877-0534d59c9dcd",
+    "version": 0
+}
